@@ -96,7 +96,7 @@ a {
 #hero h2 {
     position: relative;
     margin-bottom: 2.5rem;
-    color: var(--cor-a);
+    color: var(--cor-c);
 }
 
 #hero h2::before {
