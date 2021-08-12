@@ -21,8 +21,6 @@ body {
     font-size: 16px;
     background-color: var(--cor-d);
     color: var(--cor-texto);
-
-    background: url("../assets/") center 25% no-repeat, url("../assets/");
 }
 
 html, body {
@@ -36,19 +34,6 @@ h1, h2, h3, h4, h5 {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-/* Preload */
-
-#preload {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#page-content {
-    display: none;
 }
 
 /* Bootrstrap */
