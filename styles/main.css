@@ -1,8 +1,9 @@
 html {
 
-    --cor-a: #178B88;
+    --cor-a: #178b88;
     --cor-b: #10599D;
     --cor-c: #003e4d;
+    --cor-c-light: #014c5f;
     --cor-d: #E6E6E6;
     --cor-texto: #333;
     --cor-texto-light: #f9f9f9;
@@ -37,6 +38,16 @@ a {
 }
 
 /* Bootrstrap */
+
+.btn-secondary {
+    background-color: var(--cor-c);
+    border-color: var(--cor-c);
+}
+
+.btn-secondary:hover {
+    background-color: var(--cor-c-light);
+    border-color: var(--cor-c-light);
+}
 
 .navbar {
     background-color: var(--cor-a);
@@ -117,8 +128,8 @@ a {
 
 #quem-somos {
     padding: 3rem 0;
-    background-color: var(--cor-c);
-    background-image: linear-gradient(to right, rgba(0,62,77,1) 40%, rgba(0,62,77,0) 75% ) , url("../assets/union-solutions-cariacica--quem-somos-alt-bg.jpg");
+    background-color: var(--cor-a);
+    background-image: linear-gradient(to right, rgba(23,139,136,1) 40%, rgba(23,139,136,0) 75% ) , url("../assets/union-solutions-cariacica--quem-somos-alt-bg.jpg");
     background-size: cover;
     background-position: center right;
     color: var(--cor-texto-light);
@@ -132,12 +143,12 @@ a {
 }
 
 #quem-somos h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 #quem-somos h2 small {
     font-weight: 700;
-    color: var(--cor-a);
+    color: var(--cor-c);
     font-size: .75em;
 }
 
